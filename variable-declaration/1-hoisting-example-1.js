@@ -1,9 +1,8 @@
 function makeTea(isCold) {
-  var tea;
    if(isCold) {
-      tea = "Make an Ice Tea!"
+       var tea = "Make an Ice Tea!"
    } else {
-      tea = "Make a Hot Tea!"
+       var tea = "Make a Hot Tea!"
    }
    return tea;
 }
