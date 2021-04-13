@@ -1,4 +1,3 @@
-/* Jalankan kode di sini! */
 const user = {
     firstName: "Dimas",
     lastName: "Saputra",

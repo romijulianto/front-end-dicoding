@@ -1,4 +1,3 @@
-/* Jalankan kode di sini! */
 const user = {
     firstName: "Dimas",
     lastName: "Saputra",
@@ -10,13 +9,11 @@ const admin = {
     position: "Marketing"
 }
 
-const message = `Dear, ${user.firstName} ${user.lastName}
- 
-Selamat ulang tahun yang ke-${user.age} semoga selalu diberikan kesehatan.
- 
-Best Regards,
-${admin.name}
-${admin.position}`;
+const message = "Dear, " + user.firstName + " " + user.lastName +  "\n\n" +
+"Selamat ulang tahun yang ke-" + user.age + " semoga selalu diberikan kesehatan." + "\n\n" +
+"Best Regards,\n" +
+admin.name + "\n" +
+admin.position;
 
 console.log(message);
 
