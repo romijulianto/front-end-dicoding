@@ -1,4 +1,3 @@
-/* Jalankan kode di sini! */
 class Vehicle {
    constructor(licensePlate, manufacture) {
        this.licensePlate = licensePlate;

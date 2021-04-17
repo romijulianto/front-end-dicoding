@@ -1,4 +1,3 @@
-/* Jalankan kode di sini! */
 class Vehicle {
    constructor(licensePlate, manufacture) {
        this.licensePlate = licensePlate;
@@ -34,11 +33,20 @@ class Car extends Vehicle {
    openDoor() {
      console.log(`Membuka pintu!`);
    }
+
+   /* overriding method info dari parent class */
+   info() {
+     super.info();
+     console.log(`Jumlah roda: ${this.wheels}`);
+   }
 }
 
-const car = new Car("H121S", "Honda", 4);
-car.startEngines();
+const johnCar = new Car("H121S", "Honda", 4);
+johnCar.info();
 
 /* output:
-Mesin kendaraan H121S dinyalakan!
+Nomor Kendaraan: H121S
+Manufacture: Honda
+Mesin: Inactive
+Jumlah roda: 4
 */
