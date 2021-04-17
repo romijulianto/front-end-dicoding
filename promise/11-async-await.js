@@ -46,4 +46,4 @@ async function reserveACoffee(type, miligrams) {
 }
 
 /* Silakan ubah tipe kopi dan kuantitasnya, untuk mendapatkan promise rejection*/
-reserveACoffee("liberica", 800);
+reserveACoffee("liberica", 80);
